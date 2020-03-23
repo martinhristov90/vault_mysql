@@ -30,6 +30,7 @@ username           v-root-my-role-OPDr0f3uAG5RkT9Kk
 - To revoke the credentials either lease ID is needed or `vault lease revoke -prefix /database` to revoke all creds.
 
 ### TO DO :
-- [ ]Create read-only role
-- [ ]Create static-role
-- [ ]Create rotation station statement
+- [x] Create read-only role
+- [ ] Create static-role
+- [ ] Create rotation station statement
+- [ ] Rotate root creds
